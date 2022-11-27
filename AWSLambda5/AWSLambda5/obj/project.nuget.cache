@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "b+bPEPKsFI1/6sEguMLy5DqeyiU6fuK/spR0FCOAaJuoOK5s97tZydvJGnd+hW2Y+koLvBoiKHDu57pBO8rNbA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Lea\\source\\repos\\AWSLambda5\\AWSLambda5\\AWSLambda5.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lea\\.nuget\\packages\\amazon.lambda.applicationloadbalancerevents\\2.1.0\\amazon.lambda.applicationloadbalancerevents.2.1.0.nupkg.sha512",
+    "C:\\Users\\Lea\\.nuget\\packages\\amazon.lambda.core\\2.1.0\\amazon.lambda.core.2.1.0.nupkg.sha512",
+    "C:\\Users\\Lea\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.3.0\\amazon.lambda.serialization.systemtextjson.2.3.0.nupkg.sha512",
+    "C:\\Users\\Lea\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\6.0.10\\microsoft.netcore.app.crossgen2.win-x64.6.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}
