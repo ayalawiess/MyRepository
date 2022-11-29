@@ -35,9 +35,11 @@ namespace AWSLambda5
             {
                 for (i = k; i <= m; i++)
                 {
-                    swapTwoNumber(ref list[k], ref list[i]);
+                    if(k != i)
+                        swapTwoNumber(ref list[k], ref list[i]);
                     prnPermut(list, k + 1, m, ref listNew);
-                    swapTwoNumber(ref list[k], ref list[i]);
+                    if(k != i)
+                        swapTwoNumber(ref list[k], ref list[i]);
                 }
             }
             else
