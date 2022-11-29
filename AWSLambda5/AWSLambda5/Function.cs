@@ -19,22 +19,14 @@ public class Function
     /// <param name="input"></param>
     /// <param name="context"></param>
     /// <returns></returns>
-    //public string FunctionHandler(string input, ILambdaContext context)
-    //{
-    //    return "jjj";
-    //   //return new Casing(input.ToLower(), input.ToUpper());
-    //}
 
-
-    //public ApplicationLoadBalancerResponse FunctionHandler(ApplicationLoadBalancerRequest request, ILambdaContext context)
-    public ApplicationLoadBalancerResponse FunctionHandler(object input, ILambdaContext context)
+    public ApplicationLoadBalancerResponse FunctionHandler(Params input, ILambdaContext context)
     {
-        //string xx= JsonSerializer.Serialize(input);
         string jsonText = input.ToString();
-        Dictionary<string,int> values = JsonSerializer.Deserialize<Dictionary<string, int>>(jsonText);
+     //   Dictionary<string,int> values = JsonSerializer.Deserialize<Dictionary<string, int>>(jsonText);
         
         Permutations per = new Permutations();
-        string parmutationStr = per.PermutationsMain(values["val1"], values["val2"]);
+        string parmutationStr = per.PermutationsMain(input.val1, input.val2);
         var response = new ApplicationLoadBalancerResponse
         {
             StatusCode = 200,
