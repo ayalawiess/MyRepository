@@ -54,7 +54,7 @@ public class Function
         </style>
     </head>
     <body>
-        <p>Hello World from message" + parmutationStr + @" My Lambda</p>
+        <p>Parmutation Resule:" + parmutationStr + @" My Lambda</p>
     </body>
 </html>
 ";
